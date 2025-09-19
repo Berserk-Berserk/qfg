@@ -1,6 +1,6 @@
 let posts = [];
 let editingPostId = null;
-const apiUrl = 'https://my-blog-api.onrender.com/posts'; // <-- твій Render API
+const apiUrl = 'https://qfg.onrender.com';
 
 async function loadPosts() {
     try {
