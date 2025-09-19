@@ -1,0 +1,93 @@
+body {
+    font-family: "Courier New", monospace;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #111; /* тёмный фон */
+    color: #eee; /* светлый текст */
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"); /* лёгкая текстура */
+}
+
+.post-form, .post {
+    background: #1a1a1a;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px rgba(200,0,200,0.3); /* фиолетовое свечение */
+}
+
+.post-form h2, .post h3 {
+    font-family: "Rock Salt", cursive; /* стильный рукописный шрифт */
+    color: #d62dff;
+    margin-bottom: 15px;
+}
+
+.post-form input, .post-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #222;
+    color: #eee;
+    border: 1px solid #444;
+    border-radius: 6px;
+}
+
+.post-form input::placeholder,
+.post-form textarea::placeholder {
+    color: #777;
+    font-style: italic;
+}
+
+.post-form button {
+    background: linear-gradient(135deg, #6a00ff, #d600ff);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.post-form button:hover {
+    background: linear-gradient(135deg, #ff00aa, #ff0066);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #ff00aa;
+}
+
+.post h3 {
+    margin: 0 0 10px;
+    color: #ff4de1;
+    text-shadow: 0 0 5px #ff00ff;
+}
+
+.post p {
+    margin: 0 0 10px;
+    line-height: 1.5;
+}
+
+.post button {
+    background: #ff0033;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.post button.edit {
+    background: #0056b3;
+}
+.post button.edit:hover {
+    background: #0099ff;
+    box-shadow: 0 0 8px #0099ff;
+}
+
+.post button:hover {
+    background: #ff0055;
+    box-shadow: 0 0 8px #ff0033;
+}
